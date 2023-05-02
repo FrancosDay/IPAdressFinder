@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Ip Adress Finder",
+  "version": "1.0",
+  "description": "Displays the user's IP address",
+  "action": {
+    "default_title": "Display IP Address",
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "host_permissions": [
+    "https://api.ipify.org/"
+  ]
+}
